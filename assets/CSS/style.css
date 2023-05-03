@@ -2,37 +2,61 @@ body{
     background-color: white;
 }
 
+/* img{
+
+} */
 /* ------------- This is the HEADER section  */
 header {
-    background-color: #92C15A;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    justify-content: space-between;
+    background-color: black;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+     display: flex;
+    /*justify-content: space-between;
     align-items: center;
     padding: 3%;
-    padding-left: 0px;
+    padding-left: 0px; */
+    height: 90vh;
+    padding: 5%;
+
+}
+
+#animg{
+    border-radius: 20px;
+    height: 70%;
+    background-color: blue;
+    margin-right: 3%;
 }
 
 header h1{  /* ---- Ximena Cu  */
     font-size: 40px;
     color: white;
-    background-color: #ab6fce; /* #153A15  */
+    font-family: 'Tahoma','Gatwick Bold';
+    margin-right: 18%;
+    /* background-color: #ab6fce; 
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     width: 40%;
     text-align: center;
-    padding: 0.5%;
+    padding: 0.5%; */
     /* border: 7px solid #3B7020; #0C1D0F  */
-    border-left: 0px;   
+    /* border-left: 0px;    */
     /* border-right: 10px solid #3B7020 ; */
 }   
 
 
-header ul {   /* ---- Menu  */ 
-    width: 54%;
-    display: flex;
-    justify-content:space-around;
+header ul {
     font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 2%;
+    height: 60%;
+
+}
+header ul li{
+    margin-bottom: 50%;
+}
+a:link{
+    color: white;
+    text-decoration: none;
 }
 
 /* ------------- This is the WELCOME IMAGE section  */
@@ -171,9 +195,9 @@ main img:hover {
     width: 98%;
 }
 
-/* .smallimg:hover.text{
+.smallimgs:hover, .text:hover{
     background-color: #795ac1;
-} */
+}
 
 
 /* ------------- This is the Contact Me section  */
