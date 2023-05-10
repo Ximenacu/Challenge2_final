@@ -11,12 +11,13 @@
 
 <body>
     <header >  <!-- This is the HEADER section. -->
-        <img id="animg" src="./assets/images/animg.jpeg" alt="An Image."/>
+        <img id="decorimg" src="./assets/images/animg.jpeg" alt="An Image."/>
         <h1>Ximena Cu<br> - Full Stack <br> Developer</h1>
-        <ul>
+        <img id="decorimg2" src="./assets/images/54873 mushrooms.jpeg" alt="An Image."/>
+        <ul><!--<strong> Discover:</strong> -->
             <li><a href="#About-Me">About Me</a></li>
             <li><a href="#My-Work">My Work</a></li>
-            <li><a href="#Contact-Me">Contact Me</a></li>
+            <li><a href="#Contact-Me">Contact</a></li>
             <li><a href="#Resume">Resume</a></li>
         </ul>
     </header>
@@ -24,23 +25,32 @@
 
 <main> <!-- This is the MAIN section. -->
     <section class="aboutMe" id="About-Me"> <!-- This is the ABOUT ME section. -->
-        <h1 class="title">About Me</h1>
-        <p>This is a paragraph about me that is so great that is going to make me hired by a great company
-            and eventualy make me so rich I will buy my own appartment and be happy.
-            This is a paragraph about me that is so great that is going to make me hired by a great company
-            and eventualy make me so rich I will buy my own appartment and be happy.
-            This is a paragraph about me that is so great that is going to make me hired by a great company
-            and eventualy make me so rich I will buy my own appartment and be happy.</p>
+        <h1 id="abtmetitle" href="#About-Me"><a href="#About-Me">Get to know Me</a></h1>
+        <div id="abtmecontent">
+            <div id="abtmeText">
+                <p>This is a paragraph about me that is so great that is going to make me hired by a great company
+                    and eventualy make me so rich I will buy my own appartment and be happy.
+                    This is a paragraph about me that is so great that is going to make me hired by a great company
+                    and eventualy make me so rich I will buy my own appartment and be happy.
+                    This is a paragraph about me that is so great that is going to make me hired by a great company
+                    and eventualy make me so rich I will buy my own appartment and be happy.</p>
+                <h2>Super cool quote by super cool person. <br> -Super Cool. </h2>
+            </div>
+            <div id="meimgcont">
+            <img id="meimg" src="./assets/images/yo.jpg"/></div>  
+        </div>  
     </section>
 
-    <section class="myWork" id="My-Work"> <!-- This is the MY WORK section. -->
+    <!-- This is the MY WORK section. -->
+    <section class="myWork" id="My-Work"> 
         <h1 class="title">My Work</h1>
-        <section> <!-- class="boxes" -->
-            <section class="bigbox"> 
-                <a href="https://docs.google.com/document/d/1aOB8_Y081--ZI7wkBNObKgJrrNHsY9Tk8gBvNwQyGv8/edit?usp=sharing">
+        <section>
+            <p>The following are some of the projects I've worked in.</p> 
+            <div class="bigbox"> 
+                <a href="https://alextrejo92.github.io/Project-Moodify/">
                 <img id="bigimg" src="./assets/images/moodify.jpg" alt="Work Example 1" /> </a>
-                <div class="man"><h1>Big Website</h1><p>Big Website that is amazing.</p></div>
-            </section>
+                <div class="bigboxdescr"><strong>Moodify</strong><br>Create amazing moodboards and find playlists<br> depending on keywords and options you choose.</div>
+            </div>
 
             <section class="lilboxes">
                 <section class="updown">
